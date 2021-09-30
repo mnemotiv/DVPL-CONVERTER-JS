@@ -1,4 +1,4 @@
-# About DVPL CONVERTER
+# About DVPL CONVERTER JS
 
 `.dvpl` is a new file format that is used in the World of Tanks Blitz Client for all known clients, except files that are integreted within Android `.apk` packages & IOS internal /data/ .
 
