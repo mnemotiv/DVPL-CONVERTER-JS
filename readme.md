@@ -17,7 +17,7 @@ This converter focuses on the ease of the ability to directly convert between .d
 - Enter the directory where package.json sits with command line, and install with the following commands **IN ORDER**:
     - `npm install` and then `npm install -g` as administrator privilages. ( Windows ) ///
     - `npm install` and then `npm install -g` if you are not root add "sudo" at the beginning of the command. ( Linux ) ///
-- Now you can execute this CLI converter anywhere with `dvpl` in commandline with the following flags 'compress' / 'decompress' or 'c' / 'd' for more info use the flag 'help' / WITH NO QUOTE SYMBOLS!
+- Now you can execute this CLI converter anywhere with `dvpl` in commandline with the following flags `compress` / `decompress` or `c` / `d` for more info use the flag `help` ///
 
 ### Example of Usage -
 ```
