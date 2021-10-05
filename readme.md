@@ -48,5 +48,5 @@ DECOMPRESSION FINISHED. DECOMPRESSED 3 files.
 
 ## Libraries Used -
 
-- `lz4` a port of the LZ4 compression algorithm (https://github.com/pierrec/node-lz4)
+- `lz4` is a port of the LZ4 compression algorithm (https://github.com/pierrec/node-lz4)
 - `crc32` for crc32 calculation included in footer for DVPL.
