@@ -11,7 +11,7 @@ This converter focuses on the ease of the ability to directly convert between .d
   For Linux, You can install Node.js by simple Terminal Command, type 'sudo apt install nodejs npm' for Debian Based OS or 'sudo pacman -S nodejs npm' for Arch Based OS,
 - Setup environment for Node-gyp (https://github.com/nodejs/node-gyp) scroll down to "Installation"
     - Requirements Windows [ Visual Studio 2019 Community With C++ Workload or Visual Studio Build Tools With C++ Workload ], Linux [ C++ Build Tools ].
-    - for Windows/Linux you should only need to do a simple command `npm install gyp -g`,
+    - for Windows/Linux you should only need to do a simple command `npm install -g node-gyp` (might not be needed to install separately as gyp comes bundled with npm now),
     - read the readme in that repo for what you'll need, and install them before proceeding.
 - Git Clone this repo / Download this entire repo to your device.
 - Enter the directory where package.json sits with command line, and install with the following commands **IN ORDER**:
