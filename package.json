@@ -7,8 +7,8 @@
     "dvpl": "dvpl_base.js"
   },
   "dependencies": {
-    "crc": "^3.5.0",
-    "lz4": "^0.6.3"
+    "crc": "^4.1.0",
+    "lz4": "^0.6.5"
   },
   "devDependencies": {},
   "scripts": {
