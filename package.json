@@ -10,7 +10,6 @@
     "crc": "^4.1.0",
     "lz4": "^0.6.5"
   },
-  "devDependencies": {},
   "scripts": {
     "prepare": "echo prepare",
     "test": "echo \"Error: no test specified\" && exit 1"
