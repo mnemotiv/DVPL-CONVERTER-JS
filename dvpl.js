@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 console.log(` ###################################################################### `)
-console.log(` ################# RxD DVPL CONVERTER NODE.JS EDITION ################# `)
+console.log(` ############### RxD DVPL CONVERTER NODE.JS EDITION 4.0 ############### `)
 console.log(` ###################################################################### `)
 
 // Loads everything in

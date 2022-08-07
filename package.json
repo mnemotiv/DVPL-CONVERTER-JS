@@ -1,6 +1,6 @@
 {
-  "name": "dvpl-converter-js",
-  "version": "3.0.0",
+  "name": "dvpl",
+  "version": "4.0.0",
   "description": "This converter focuses on the ease of the ability to directly convert between .dvpl and base non-dvpl files in any directory.",
   "main": "dvpl_converter.js",
   "bin": {
