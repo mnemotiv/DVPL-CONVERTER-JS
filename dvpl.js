@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 console.log(` ###################################################################### `)
-console.log(` ############### RxD DVPL CONVERTER NODE.JS EDITION 4.0 ############### `)
+console.log(` ############## RXD DVPL CONVERTER NODE.JS EDITION V4.0 ############### `)
 console.log(` ###################################################################### `)
 
 // Loads everything in
@@ -12,7 +12,7 @@ const path = require('path');
 // Scrappy cli code
 const realArgs = process.argv.slice(2);
 if (realArgs.length === 0) {
-    throw 'No Mode selected. try dvpl help for advices.'
+    throw 'No Mode selected. try dvpl --help for advices.'
 }
 
 const optionalArgs = realArgs.slice(1);
@@ -42,18 +42,18 @@ switch (realArgs[0].toLowerCase()) {
         })
         // decompress
         break;
-    case 'help':
-    case 'h':
+    case '--help':
+    case '-h':
         console.log(`dvpl [mode] [--keep-originals]
             mode can be the following:
-                compress: compresses files into dvpl
-                decompress: decompresses dvpl files into standard files
-                help: show this help message
-            --keep-originals flag keeps the original files after compression/ decompression
+                compress (comp, cp, c): compresses files into dvpl
+                decompress (decomp, dcp, d): decompresses dvpl files into standard files
+                --help (-h): show this help message
+                --keep-originals(--keep-original, -ko) flag keeps the original files after compression/ decompression
         `)
         break;
     default:
-        throw "incorrect mode selected. Use Help for information"
+        console.error('incorrect mode selected. Use Help for information')
 }
 
 // main code that does all the heavy lifting
