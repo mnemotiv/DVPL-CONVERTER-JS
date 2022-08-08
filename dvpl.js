@@ -49,7 +49,7 @@ switch (realArgs[0].toLowerCase()) {
                 compress (comp, cp, c): compresses files into dvpl
                 decompress (decomp, dcp, d): decompresses dvpl files into standard files
                 --help (-h): show this help message
-                --keep-originals(--keep-original, -ko) flag keeps the original files after compression/ decompression
+                --keep-originals (--keep-original, -ko): flag keeps the original files after compression/ decompression
         `)
         break;
     default:
